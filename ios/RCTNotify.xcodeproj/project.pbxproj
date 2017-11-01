@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		983B1A371FA9687B00536CB7 /* RCTNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1A361FA9687B00536CB7 /* RCTNotify.m */; };
-		983B1A381FA9687B00536CB7 /* RCTNotify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 983B1A351FA9687B00536CB7 /* RCTNotify.h */; };
-		983B1A461FA9734700536CB7 /* JDStatusBarLayoutMarginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1A421FA9734600536CB7 /* JDStatusBarLayoutMarginHelper.m */; };
-		983B1A471FA9734700536CB7 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1A431FA9734600536CB7 /* JDStatusBarNotification.m */; };
-		983B1A481FA9734700536CB7 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1A441FA9734600536CB7 /* JDStatusBarStyle.m */; };
-		983B1A491FA9734700536CB7 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1A451FA9734600536CB7 /* JDStatusBarView.m */; };
+		983B1F011FA99F6F00536CB7 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1EF71FA99F6F00536CB7 /* JDStatusBarNotification.m */; };
+		983B1F021FA99F6F00536CB7 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1EF81FA99F6F00536CB7 /* JDStatusBarStyle.m */; };
+		983B1F031FA99F6F00536CB7 /* RCTNotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1EFC1FA99F6F00536CB7 /* RCTNotify.m */; };
+		983B1F041FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1EFE1FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.m */; };
+		983B1F051FA99F6F00536CB7 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 983B1EFF1FA99F6F00536CB7 /* JDStatusBarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +21,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				983B1A381FA9687B00536CB7 /* RCTNotify.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,16 +28,16 @@
 
 /* Begin PBXFileReference section */
 		983B1A321FA9687A00536CB7 /* libRCTNotify.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTNotify.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		983B1A351FA9687B00536CB7 /* RCTNotify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNotify.h; sourceTree = "<group>"; };
-		983B1A361FA9687B00536CB7 /* RCTNotify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTNotify.m; sourceTree = "<group>"; };
-		983B1A3E1FA9734500536CB7 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
-		983B1A3F1FA9734500536CB7 /* JDStatusBarLayoutMarginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarLayoutMarginHelper.h; sourceTree = "<group>"; };
-		983B1A401FA9734500536CB7 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
-		983B1A411FA9734600536CB7 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
-		983B1A421FA9734600536CB7 /* JDStatusBarLayoutMarginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarLayoutMarginHelper.m; sourceTree = "<group>"; };
-		983B1A431FA9734600536CB7 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
-		983B1A441FA9734600536CB7 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
-		983B1A451FA9734600536CB7 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		983B1EF71FA99F6F00536CB7 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		983B1EF81FA99F6F00536CB7 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		983B1EF91FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarLayoutMarginHelper.h; sourceTree = "<group>"; };
+		983B1EFA1FA99F6F00536CB7 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		983B1EFB1FA99F6F00536CB7 /* RCTNotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTNotify.h; sourceTree = "<group>"; };
+		983B1EFC1FA99F6F00536CB7 /* RCTNotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTNotify.m; sourceTree = "<group>"; };
+		983B1EFD1FA99F6F00536CB7 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		983B1EFE1FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarLayoutMarginHelper.m; sourceTree = "<group>"; };
+		983B1EFF1FA99F6F00536CB7 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		983B1F001FA99F6F00536CB7 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,16 @@
 		983B1A291FA9687A00536CB7 = {
 			isa = PBXGroup;
 			children = (
-				983B1A341FA9687A00536CB7 /* RCTNotify */,
+				983B1EF91FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.h */,
+				983B1EFE1FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.m */,
+				983B1F001FA99F6F00536CB7 /* JDStatusBarNotification.h */,
+				983B1EF71FA99F6F00536CB7 /* JDStatusBarNotification.m */,
+				983B1EFA1FA99F6F00536CB7 /* JDStatusBarStyle.h */,
+				983B1EF81FA99F6F00536CB7 /* JDStatusBarStyle.m */,
+				983B1EFD1FA99F6F00536CB7 /* JDStatusBarView.h */,
+				983B1EFF1FA99F6F00536CB7 /* JDStatusBarView.m */,
+				983B1EFB1FA99F6F00536CB7 /* RCTNotify.h */,
+				983B1EFC1FA99F6F00536CB7 /* RCTNotify.m */,
 				983B1A331FA9687A00536CB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,23 +74,6 @@
 				983B1A321FA9687A00536CB7 /* libRCTNotify.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		983B1A341FA9687A00536CB7 /* RCTNotify */ = {
-			isa = PBXGroup;
-			children = (
-				983B1A3F1FA9734500536CB7 /* JDStatusBarLayoutMarginHelper.h */,
-				983B1A421FA9734600536CB7 /* JDStatusBarLayoutMarginHelper.m */,
-				983B1A401FA9734500536CB7 /* JDStatusBarNotification.h */,
-				983B1A431FA9734600536CB7 /* JDStatusBarNotification.m */,
-				983B1A411FA9734600536CB7 /* JDStatusBarStyle.h */,
-				983B1A441FA9734600536CB7 /* JDStatusBarStyle.m */,
-				983B1A3E1FA9734500536CB7 /* JDStatusBarView.h */,
-				983B1A451FA9734600536CB7 /* JDStatusBarView.m */,
-				983B1A351FA9687B00536CB7 /* RCTNotify.h */,
-				983B1A361FA9687B00536CB7 /* RCTNotify.m */,
-			);
-			path = RCTNotify;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,11 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983B1A371FA9687B00536CB7 /* RCTNotify.m in Sources */,
-				983B1A491FA9734700536CB7 /* JDStatusBarView.m in Sources */,
-				983B1A481FA9734700536CB7 /* JDStatusBarStyle.m in Sources */,
-				983B1A471FA9734700536CB7 /* JDStatusBarNotification.m in Sources */,
-				983B1A461FA9734700536CB7 /* JDStatusBarLayoutMarginHelper.m in Sources */,
+				983B1F011FA99F6F00536CB7 /* JDStatusBarNotification.m in Sources */,
+				983B1F051FA99F6F00536CB7 /* JDStatusBarView.m in Sources */,
+				983B1F041FA99F6F00536CB7 /* JDStatusBarLayoutMarginHelper.m in Sources */,
+				983B1F021FA99F6F00536CB7 /* JDStatusBarStyle.m in Sources */,
+				983B1F031FA99F6F00536CB7 /* RCTNotify.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
