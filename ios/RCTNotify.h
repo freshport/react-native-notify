@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
 
-@interface RCTNotify : NSObject
+@interface RCTNotify : NSObject <RCTBridgeModule>
 
 @end
