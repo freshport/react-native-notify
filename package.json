@@ -1,11 +1,22 @@
 {
   "name": "react-native-notify",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "post message on device",
+  "main": "notify.js",
+  "typings": "./notify.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freshport/react-native-notify"
+  },
+  "keywords": [
+    "notify",
+    "toast",
+    "ios",
+    "react-native"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "riverage",
   "license": "ISC"
 }
